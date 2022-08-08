@@ -53,9 +53,9 @@ svg:active {
   overflow-y: hidden;
   background: url(assets/town_background.jpg);
   background-position: center center;
-  background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .backdrop {
   margin: 0;
@@ -75,8 +75,9 @@ svg:active {
   margin: 1.5rem;
   margin-top: 2.5rem;
   width: 100%;
-  height: 490px;
+  height: 500px;
   font-size: 1.3rem;
+  background-image: none;
 }
 
 .info_title img {
@@ -125,25 +126,25 @@ svg:active {
 }
 
 .socials {
-  margin-top: .7rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   width: 100%;
-  height: 100px;
+  height: 90px;
   padding-bottom: 15px;
   border-bottom: 2px solid #ccc;
 }
 
 .socials h3 {
-  font-size: 1.1rem;
-  position:relative;
-  top: 15px;
+  font-size: 1rem;
+  position: relative;
+  top: 1.25rem;
 }
 .socials i {
   color: #ccc;
-  margin: 0px 4px 0px 4px;
+  margin: 0px 4px;
+  cursor: pointer;
 }
 
 .socials i:hover {
@@ -151,5 +152,5 @@ svg:active {
 }
 
 .fa-xl {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
