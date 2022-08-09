@@ -285,3 +285,9 @@ span:nth-child(odd) {
   display: flex;
   justify-content: center;
 }
+
+.sublist_town {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
