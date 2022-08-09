@@ -32,10 +32,35 @@ p {
   background-color: white;
   align-self: flex-start;
 }
-
 .sans_font_family {
   font-family: "Open Sans Bold", "Open Sans Regular", "Open Sans";
 }
+
+.background_img {
+  margin: 0;
+  overflow-x: hidden;
+  -ms-overflow-y: hidden;
+  overflow-y: hidden;
+  background: url(assets/town_background.jpg);
+  background-attachment: fixed;
+  background-position: 45% 55%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.backdrop {
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow-x: hidden;
+  -ms-overflow-y: hidden;
+  overflow-y: hidden;
+  background-image: none;
+  display: flex;
+}
+
+/* uncommon */
 
 header {
   background-color: black;
@@ -66,33 +91,8 @@ header svg:hover {
 }
 
 header svg:active {
-  color: rgba(255, 166, 0, 0.836);
+  color: rgb(255, 139, 56);
 }
-
-.background_img {
-  margin: 0;
-  overflow-x: hidden;
-  -ms-overflow-y: hidden;
-  overflow-y: hidden;
-  background: url(assets/town_background.jpg);
-  background-attachment: fixed;
-  background-position: 45% 55%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-.backdrop {
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  overflow-x: hidden;
-  -ms-overflow-y: hidden;
-  overflow-y: hidden;
-  background-image: none;
-  display: flex;
-}
-
 .info_title {
   display: flex;
   flex-direction: column;
@@ -174,10 +174,26 @@ h3 {
 .tabs {
   position: relative;
   width: 100%;
-  height: 505px;
+  height: 510px;
   display: flex;
   justify-content: center;
   background-color: rgba(245, 245, 245, 1);
+}
+.tabs button {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  border: none;
+  width: 280px;
+  height: 44px;
+  color: white;
+  background-color: rgb(255, 139, 56);
+  font-size: 1rem;
+  margin-top: 9rem;
+  cursor: pointer;
+}
+.tabs button:hover {
+  background-color: rgb(255, 155, 81);
 }
 
 .collapse {
@@ -199,30 +215,36 @@ h3 {
   font-weight: 700;
   font-style: normal;
 }
-
 .collapse:before {
   content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
 }
-.collapse + input {
+.collapse:hover {
+  background-color: rgb(51, 51, 51);
+}
+
+input {
   display: none; /* hide the checkboxes */
 }
-.collapse + input + div {
-  display: none;
+input + .collapse + div {
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
 }
-.collapse + input:checked + div {
-  display: block;
+input:checked + .collapse + div {
   position: absolute;
   top: 4rem;
   left: 0px;
+  visibility: visible;
+  opacity: 1;
+  transition: 0.7s;
 }
-
-.collapse:hover {
-  background-color: rgb(51,51,51);
-}
-
-.collapse + input:checked {
-  background-color: orange;
+input:checked + .collapse {
+  background-color: rgb(255, 139, 56);
 }
