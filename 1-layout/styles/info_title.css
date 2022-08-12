@@ -113,9 +113,9 @@
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .info_title h1 {
-    width: 55%;
+    width: 50%;
     margin-left: 0;
     font-size: 2rem;
     line-height: 2.5rem;
@@ -130,7 +130,7 @@
 
   .info_title form {
     position: absolute;
-    top: 10px;
+    top: 2.5rem;
     right: 0;
     display: flex;
     justify-content: center;
