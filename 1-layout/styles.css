@@ -101,3 +101,10 @@ h3 {
 .fa-solid {
   color: rgb(255, 139, 56);
 }
+
+@media (min-width: 768px)
+{
+  h3 {
+    font-size: 1.3rem
+  }
+}

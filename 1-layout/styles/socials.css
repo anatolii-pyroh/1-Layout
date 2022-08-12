@@ -31,3 +31,30 @@
     font-size: 1.8rem;
   }
   
+
+  @media (min-width: 768px) {
+    .socials {
+      max-width: 100%;
+      padding: 0;
+      text-align: start;
+      position: inherit;
+      flex-direction: row;
+    }
+
+    .socials h3 {
+      width: 100%;
+      margin: 0;
+      margin-left: 9%;
+      padding: 0;
+      top: 0;
+    };
+
+    .socials i {
+      font-size: 0;
+    }
+    .fa-xl {
+      font-size: 2rem;
+      margin-left: 2rem;
+    }
+
+  }
