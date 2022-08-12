@@ -20,13 +20,14 @@
     height: 100%;
     display: flex;
   }
-  /* footers nav media icons and angle up icon */
+  /* footers nav media icons and toggle up icon */
   .footer_navigation .fa-solid, .footer_navigation .fa-brands{
     font-size: 1.4rem;
     margin: 0 0.43rem;
     color: rgb(204,204,204);
   }
   
+  /* toggle up icon */
   .footer_navigation .awesome_fontawesome {
     text-decoration: none;
     position: absolute;

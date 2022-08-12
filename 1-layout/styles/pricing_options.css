@@ -9,6 +9,13 @@
   justify-content: center;
   background-color: rgba(245, 245, 245, 1);
 }
+.pricing_title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .pricing_content {
   position: relative;
@@ -21,13 +28,6 @@
   height: 100%;
 }
 
-.pricing_title {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
 .pricing_content_options {
   margin-top: -1rem;
   margin-bottom: 0.5rem;
@@ -80,10 +80,12 @@
   font-size: 14px;
 }
 
+/* price amount */
 .pricing_content article span {
   font-size: 30px;
 }
 
+/* most popular badge */
 .most_popular {
   margin: 0;
   width: 100%;
@@ -98,21 +100,14 @@
   font-size: 12px;
   background-color: rgb(255, 139, 56);
 }
-
-.most_popular_text {
-  margin: 0;
-  width: 100%;
-  max-width: 350px;
-  min-height: 8px;
+/* most popular badge with text */
+.text {
   height: 40px;
   color: white;
-  display: flex;
-  justify-content: center;
   align-items: center;
   font-weight: 700;
   font-style: normal;
   font-size: 0.8rem;
-  background-color: rgb(255, 139, 56);
 }
 
 .price_description {

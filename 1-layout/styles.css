@@ -102,8 +102,7 @@ h3 {
   color: rgb(255, 139, 56);
 }
 
-@media (min-width: 768px)
-{
+@media (min-width: 768px) {
   .towns_img img {
     width: 100%;
     height: 100%;
@@ -115,5 +114,11 @@ h3 {
 
   h1 {
     font-size: 2rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 2.25rem;
   }
 }

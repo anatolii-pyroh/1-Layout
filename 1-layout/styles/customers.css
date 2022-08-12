@@ -9,6 +9,14 @@
   overflow-x: hidden;
 }
 
+.customers_title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .customers_content {
   margin: 0;
   display: flex;
@@ -20,14 +28,6 @@
   height: 100%;
 }
 
-.customers_title {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
 .customers_quote {
   position: relative;
   margin: 0;
@@ -37,6 +37,7 @@
   max-width: 350px;
 }
 
+/* text in quote */
 .customers_quote p:nth-of-type(1) {
   background-color: rgba(245, 245, 245, 1);
   padding: 1rem;
@@ -50,6 +51,7 @@
   left: 2.1rem;
   bottom: 0;
 }
+
 /* customer photo */
 .customers_quote img:nth-of-type(2) {
   position: absolute;
@@ -64,7 +66,7 @@
   top: 100%;
 }
 
-/* custorem job */
+/* custorem job description */
 .customers_quote p:nth-of-type(2) {
   position: absolute;
   left: 6rem;

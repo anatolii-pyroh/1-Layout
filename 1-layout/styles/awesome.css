@@ -20,6 +20,8 @@
     word-wrap: break-word;
     max-width: 300px;
   }
+
+   /* fontawesome icon size */
   .fa-lg {
     font-size: 1.3rem;
   }

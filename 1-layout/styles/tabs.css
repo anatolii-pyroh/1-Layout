@@ -25,6 +25,7 @@
   background-color: rgb(255, 155, 81);
 }
 
+/* making label looks like button */
 .collapse {
   width: 85px;
   max-width: 100%;
@@ -56,12 +57,12 @@
 .collapse:hover {
   background-color: rgb(51, 51, 51);
 }
-
+  /* hide the checkboxes */
 input {
   display: none;
-  /* hide the checkboxes */
 }
 
+/* hide not selected content */
 input+.collapse+div {
   margin-top: 1rem;
   position: absolute;
@@ -73,6 +74,7 @@ input+.collapse+div {
   transition: 0.7s;
 }
 
+/* show selected content */
 input:checked+.collapse+div {
   position: absolute;
   top: 4rem;
@@ -83,6 +85,7 @@ input:checked+.collapse+div {
   transition: 0.7s;
 }
 
+/* make selected label color orange */
 input:checked+.collapse {
   background-color: rgb(255, 139, 56);
 }

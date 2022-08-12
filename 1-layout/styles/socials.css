@@ -27,7 +27,8 @@
     color: #666666;
   }
   
-  .fa-xl {
+  /* icons size */
+  .socials .fa-xl {
     font-size: 1.8rem;
   }
   
