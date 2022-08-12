@@ -9,6 +9,11 @@
   <link href="styles.css" rel="stylesheet" />
   <title>Layout</title>
 </head>
+<!-- <svg width="35px" height="35px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+    fill="currentColor" />
+</svg> -->
 
 <body>
   <!-- city background img -->
@@ -17,11 +22,21 @@
       <!-- header with Axit logo and burger menu icon -->
       <div class="header_div">
         <img src="assets/axit_logo.png" alt="axit-logo" class="header_img" />
-        <svg width="35px" height="35px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-            d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
-            fill="currentColor" />
-        </svg>
+
+        <div class="hamburger_menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <ul class="menu__box">
+            <li><a class="menu__item" href="#tabs_section">Features</a></li>
+            <li><a class="menu__item" href="#awesome_section">About</a></li>
+            <li><a class="menu__item" href="#pricing_section">Pricing</a></li>
+            <li><a class="menu__item" href="#customers_section">Reviews</a></li>
+            <li><a class="menu__item" href="#contact_section">Contact</a></li>
+          </ul>
+        </div>
+        
       </div>
     </header>
     <!-- article under header -->
@@ -40,7 +55,7 @@
             accumsan et viverra justo commodo.
           </p>
 
-          <button type="button" class="sans_font_family">Download</button>
+          <button type="button" class="sans_font_family" onclick="window.open('https://www.axurethemes.com/', 'blank')">Download</button>
         </section>
       </div>
     </article>
@@ -60,7 +75,7 @@
       </div>
     </section>
 
-    <section class="tabs sans_font_family">
+    <section class="tabs sans_font_family" id="#tabs_section">
       <div>
         <!-- Tab 1 -->
         <input id="_1" type="radio" name="c1" checked />
@@ -183,7 +198,7 @@
     </section>
 
     <!-- Why this is awesome -->
-    <section class="awesome">
+    <section class="awesome" id="awesome_section">
       <div class="awesome_content">
         <h1>WHY THIS IS AWESOME</h1>
         <div class="divider margin_05_rem" style="align-self: center;"></div>
@@ -207,7 +222,7 @@
     </section>
 
     <!-- Pricing Options -->
-    <section class="pricing">
+    <section class="pricing" id="pricing_section">
       <div class="pricing_content">
         <h1>PRICING OPTIONS</h1>
         <div class="divider margin_05_rem" style="align-self: center;"></div>
@@ -255,7 +270,7 @@
     </section>
 
     <!-- what customers sayng -->
-    <section class="customers">
+    <section class="customers" id="customers_section">
       <div class="customers_content">
         <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
         <div class="divider margin_05_rem" style="align-self: center;"></div>
@@ -294,7 +309,7 @@
       </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact_section">
       <div class="contact_content">
         <h1>CONTACT US</h1>
         <div class="divider margin_05_rem" style="align-self: center;"></div>
@@ -310,7 +325,7 @@
     </section>
 
     <footer class="footer_navigation">
-      <div class="footer_nagivation_content">
+      <div class="footer_navigation_content">
         <a href="#" class="awesome_fontawesome"><i class="fa-solid fa-angle-up" style="color: white;"></i></a>
         <div style="margin-bottom: 0;">
           <i class="fa-brands fa-facebook-f fa-lg"></i>
@@ -321,7 +336,9 @@
           <i class="fa-brands fa-stumbleupon fa-lg"></i>
           <i class="fa-solid fa-rss fa-lg"></i>
         </div>
-        <p class="sans_font_family">© 2016 Axure Themes</p>
+        <p class="sans_font_family">© 2016
+          <a href="https://www.axurethemes.com/" class="axure_link" target="_blank"> Axure Themes</a>
+        </p>
       </div>
     </footer>
   </main>

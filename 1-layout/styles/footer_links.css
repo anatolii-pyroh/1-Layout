@@ -9,7 +9,7 @@
     color: rgba(255, 255, 255, 0.49);
   }
   
-  .footer_nagivation_content {
+  .footer_navigation_content {
     margin: 1rem 0;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,7 @@
     color: rgb(204,204,204);
   }
   
-  .footer_navigation a {
+  .footer_navigation .awesome_fontawesome {
     text-decoration: none;
     position: absolute;
     top: -3.5rem;
@@ -38,4 +38,13 @@
     background-color: rgb(255, 139, 56);
     border-radius: 50%;
     padding: 0.9rem;
+  }
+
+  .axure_link {
+    color: #86878b;
+    text-decoration: none;
+  }
+
+  .axure_link:hover {
+    text-decoration: underline;
   }

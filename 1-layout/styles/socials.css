@@ -3,15 +3,23 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     width: 100%;
     height: 90px;
     padding-bottom: 15px;
     border-bottom: 2px solid #ccc;
   }
   
+  .socials h3 {
+    margin-bottom: 1.5rem;
+  }
+  .socials div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
   .socials i {
     color: #ccc;
-    margin: 0px 4px;
     cursor: pointer;
   }
   

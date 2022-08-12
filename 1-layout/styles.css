@@ -16,9 +16,7 @@
 }
 
 body {
-  max-width: 100%;
   margin: 0;
-  margin-bottom: -1.5rem;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -39,7 +37,7 @@ button {
 }
 
 div {
-  margin: 1.5rem;
+  margin: 1.5rem 9%;
 }
 
 p {
