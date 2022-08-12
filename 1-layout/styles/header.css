@@ -97,12 +97,12 @@ header svg:active {
   position: absolute;
   top: 0;
   right: -100%;
-  height: 30rem;
+  height: 350px;
   width: 100%;
   margin: 0;
   padding: 80px 0;
   list-style: none;
-  background-color: rgba(0, 0, 0, 0.904);
+  background-color: black;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   transition-duration: 0.25s;
 }
@@ -136,7 +136,7 @@ header svg:active {
     flex-direction: row;
     position: absolute;
     top: 1.3rem;
-    right: 5%;
+    right: 9%;
     background: transparent;
     width: inherit;
     height: inherit;
@@ -156,5 +156,9 @@ header svg:active {
     display: flex;
     padding: 0.5rem 0.5rem;
     font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.698039215686274);
   }
 }
