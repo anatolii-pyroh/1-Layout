@@ -36,3 +36,12 @@
     justify-content: center;
   }
   
+  @media (min-width: 768px) {
+    .sublist p {
+      width: 80%;
+    }
+
+    .sublist ul p {
+      width: 65%;
+    }
+  }

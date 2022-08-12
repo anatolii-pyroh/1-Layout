@@ -8,7 +8,6 @@
   }
   
   .contact_content {
-    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,11 +19,9 @@
   
   form {
     width: 100%;
-    max-width: 350px;
     height: 100%;
     display: flex;
     flex-direction: column;
-  
   }
   
   form * {
@@ -69,7 +66,6 @@
   
   form button {
     width: 100%;
-    max-width: 350px;
     height: 44px;
     border: none;
     border-radius: 2px;

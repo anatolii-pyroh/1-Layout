@@ -1,61 +1,125 @@
 .customers {
-    margin: 1.5rem;
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow-x: hidden;
+  position: relative;
+  margin: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.customers_content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.customers_title {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.customers_quote {
+  position: relative;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 5.5rem;
+  width: 100%;
+  max-width: 350px;
+}
+
+.customers_quote p:nth-of-type(1) {
+  background-color: rgba(245, 245, 245, 1);
+  padding: 1rem;
+  text-align: start;
+  font-style: italic;
+}
+
+/* triangle icon above cusmoter photo */
+.customers_quote img:nth-of-type(1) {
+  position: absolute;
+  left: 2.1rem;
+  bottom: 0;
+}
+/* customer photo */
+.customers_quote img:nth-of-type(2) {
+  position: absolute;
+  left: 10px;
+  bottom: -5rem;
+}
+
+/* customer name */
+.customers_quote h3 {
+  position: absolute;
+  left: 6rem;
+  top: 100%;
+}
+
+/* custorem job */
+.customers_quote p:nth-of-type(2) {
+  position: absolute;
+  left: 6rem;
+  top: 118%;
+}
+
+@media (min-width: 768px) {
+  .customers {
+    height: 500px;
+    overflow-y: hidden;
   }
-  
+
+  .customers_title {
+    position: absolute;
+    top: -1rem;
+  }
+
   .customers_content {
-    margin: 0;
+    margin-top: 5rem;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
+    flex-direction: row;
   }
-  
+
   .customers_quote {
-    position: relative;
-    margin: 0;
-    margin-top: 1rem;
-    margin-bottom: 5.5rem;
-    width: 100%;
-    max-width: 350px;
+    margin-lefT: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    justify-content: center;
   }
-  
-  .customers_quote p:nth-of-type(1) {
-    background-color: rgba(245, 245, 245, 1);
-    padding: 1rem;
-    text-align: start;
-    font-style: italic;
-  }
-  
-  .customers_quote img:nth-of-type(1) {
-    position: absolute;
-    left: 2.1rem;
-    bottom: 0;
-  }
-  
-  .customers_quote img:nth-of-type(2) {
-    position: absolute;
-    left: 10px;
-    bottom: -5rem;
-  }
-  
-  .customers_quote h3 {
-    position: absolute;
-    left: 6rem;
-    top: 100%;
-  }
-  
+
   .customers_quote p:nth-of-type(2) {
-    position: absolute;
-    left: 6rem;
-    top: 118%;
+    top: 125%;
   }
-  
+
+  .customers_quote p:nth-of-type(1) {
+    width: 61%;
+  }
+
+  .customers_quote img:nth-of-type(1) {
+    left: 6rem;
+  }
+
+  .customers_quote img:nth-of-type(2) {
+  left: 4.5rem;
+  bottom: -4.5rem;
+  }
+
+  .customers_quote h3 {
+    left: 9.5rem;
+    top: 95%;
+  }
+
+  .customers_quote p:nth-of-type(2) {
+    top: 116%;
+    left: 9.4rem;
+  }
+
+}
