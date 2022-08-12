@@ -88,7 +88,7 @@
   }
 
   .info_title img {
-    width: 20%;
+    width: 15%;
     height: 35px;
   }
 
@@ -114,6 +114,12 @@
 }
 
 @media (min-width: 1024px) {
+
+  .info_title img {
+    width: 150px;
+    height: 35px;
+  }
+
   .info_title h1 {
     width: 50%;
     margin-left: 0;
