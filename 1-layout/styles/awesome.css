@@ -2,7 +2,6 @@
     margin: 1.5rem;
     margin-top: 2.5rem;
     display: flex;
-    align-items: center;
     justify-content: center;
   }
   
@@ -17,10 +16,15 @@
     height: 100%;
   }
   
+  .awesome_content p {
+    word-wrap: break-word;
+    max-width: 300px;
+  }
   .fa-lg {
     font-size: 1.3rem;
   }
   
+  /* fontawesome icon styles */
   .awesome_fontawesome {
     width: 1.8rem;
     height: 1.8rem;
