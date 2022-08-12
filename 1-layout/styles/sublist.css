@@ -46,3 +46,23 @@
       width: 65%;
     }
   }
+
+  @media (min-width: 1024px) {
+    .sublist {
+      flex-direction: row-reverse;
+      width: 100%;
+    }
+    .sublist img {
+      width: 100%;
+      position: absolute;
+      top: 1rem;
+      left: 6%;
+    }
+
+    .sublist p {
+      width: 70%;
+    }
+    .sublist div:nth-child(1) {
+      margin: 0;
+    }
+  }

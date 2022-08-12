@@ -13,7 +13,6 @@
 
 @media (min-width: 768px) {
 
-
   .standard {
     padding: 0;
     height: 400px;
@@ -27,6 +26,7 @@
   /* text next to img */
   .standard div:nth-of-type(1) {
     width: 130%;
+
   }
 
   /* making img cut to the right side of div */
@@ -40,7 +40,30 @@
     object-fit: cover;
     object-position: -100% 0;
   }
+}
 
-  ;
+@media (min-width: 1024px) {
+  .standard {
+    width: 100%;
+  }
+  .standard {
+    justify-content: center;
+  }
+  .standard img {
+    right: 9%;
+    object-position: 100%;
+  }
+  .standard p {
+    width: 65%;
+  } 
+}
 
+@media (min-width: 1200px) {
+  .standard{
+    padding: 0;
+    margin: 0;
+  }
+  .standard p {
+    width: 75%;
+  } 
 }
