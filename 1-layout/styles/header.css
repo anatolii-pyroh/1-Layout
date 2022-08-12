@@ -1,0 +1,33 @@
+header {
+    background-color: black;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .header_div {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header_img {
+    width: 80px;
+    height: 27px;
+  }
+  
+  header svg {
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  header svg:hover {
+    color: white;
+  }
+  
+  header svg:active {
+    color: rgb(255, 139, 56);
+  }

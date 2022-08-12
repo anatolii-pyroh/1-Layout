@@ -1,0 +1,60 @@
+.customers {
+    margin: 1.5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+  }
+  
+  .customers_content {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .customers_quote {
+    position: relative;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 5.5rem;
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .customers_quote p:nth-of-type(1) {
+    background-color: rgba(245, 245, 245, 1);
+    padding: 1rem;
+    text-align: start;
+    font-style: italic;
+  }
+  
+  .customers_quote img:nth-of-type(1) {
+    position: absolute;
+    left: 2.1rem;
+    bottom: 0;
+  }
+  
+  .customers_quote img:nth-of-type(2) {
+    position: absolute;
+    left: 10px;
+    bottom: -5rem;
+  }
+  
+  .customers_quote h3 {
+    position: absolute;
+    left: 6rem;
+    top: 100%;
+  }
+  
+  .customers_quote p:nth-of-type(2) {
+    position: absolute;
+    left: 6rem;
+    top: 118%;
+  }
+  

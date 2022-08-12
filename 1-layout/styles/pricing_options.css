@@ -1,0 +1,106 @@
+.pricing {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 1);
+  }
+  
+  .pricing_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .pricing_content article {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 350px;
+    height: 150px;
+    color: white;
+    background-color: #333333;
+  }
+  
+  .pricing_content h3 {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #333333;
+    border-bottom: 4px solid rgb(71, 71, 71);
+  }
+  
+  .pricing_content h4 {
+    position: relative;
+    bottom: 15%;
+    font-size: 70px;
+  }
+  
+  .pricing_content footer {
+    position: absolute;
+    bottom: 15%;
+    color: rgb(153, 153, 153);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 14px;
+  }
+  
+  .pricing_content article span {
+    font-size: 30px;
+  }
+  
+  .most_popular {
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+    min-height: 8px;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+    background-color: rgb(255, 139, 56);
+  }
+  
+  .most_popular:nth-of-type(3) {
+    height: 40px;
+    align-items: center;
+  }
+  
+  .price_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    color: #86878B;
+    background-color: white;
+    box-shadow: 0 0 2.5px rgb(0 0 0 / 25%);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+  

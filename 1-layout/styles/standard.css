@@ -1,0 +1,11 @@
+.standard {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 100%;
+    max-height: 700px;
+    background-color: rgba(245, 245, 245, 1);
+  }
