@@ -21,22 +21,9 @@ header {
   width: 80px;
   height: 27px;
 }
-
-header svg {
-  color: #ccc;
-  cursor: pointer;
-}
-
-header svg:hover {
-  color: white;
-}
-
-header svg:active {
-  color: rgb(255, 139, 56);
-}
 /* burger */
  .hamburger_menu {
-  z-index: 10;
+  z-index: 1;
   text-align: center;
 }
 
@@ -44,21 +31,21 @@ header svg:active {
   opacity: 0;
 }
 
-#menu__toggle:checked+.menu__btn>span {
+#menu__toggle:focus+.menu__btn>span {
   transform: rotate(45deg);
 }
 
-#menu__toggle:checked+.menu__btn>span::before {
+#menu__toggle:focus+.menu__btn>span::before {
   top: 0;
   transform: rotate(0deg);
 }
 
-#menu__toggle:checked+.menu__btn>span::after {
+#menu__toggle:focus+.menu__btn>span::after {
   top: 0;
   transform: rotate(90deg);
 }
 
-#menu__toggle:checked~.menu__box {
+#menu__toggle:focus~.menu__box {
   right: 0 !important;
 }
 
