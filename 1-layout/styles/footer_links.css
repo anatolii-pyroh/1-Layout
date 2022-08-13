@@ -49,3 +49,9 @@
   .axure_link:hover {
     text-decoration: underline;
   }
+
+  @media (min-width:1024px) {
+    .footer_navigation .awesome_fontawesome {
+      right: 10rem;
+    }
+  }

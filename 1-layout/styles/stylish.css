@@ -33,7 +33,7 @@
   }
   
   .stylish_content h1 {
-    margin: 0 0 0.5rem 0;
+    margin: 1rem 0.5rem;
   }
   
   .stylish_content p {
@@ -58,3 +58,8 @@
     color: black;
   }
   
+  @media (min-width: 1024px) {
+    .stylish_content button {
+      width: 160px;
+    }
+  }

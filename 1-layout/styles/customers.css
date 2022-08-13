@@ -73,6 +73,9 @@
   top: 118%;
 }
 
+.desktop_only {
+  display: none !important;
+}
 @media (min-width: 768px) {
   .customers {
     height: 500px;
@@ -91,8 +94,6 @@
   }
 
   .customers_quote {
-    margin-lefT: -1rem;
-    margin-right: -1rem;
     display: flex;
     justify-content: center;
   }
@@ -124,4 +125,13 @@
     left: 9.4rem;
   }
 
+}
+
+@media (min-width: 1024px) {
+  .desktop_only {
+    display: flex !important;
+  }
+  .customers_quote p:nth-of-type(1) {
+    width: 71%;
+  }
 }
