@@ -160,13 +160,13 @@
     justify-content: center;
     align-items: center;
     color: black;
-    background-color: rgba(245, 245, 245, 1);
-    border-bottom: 1px solid rgb(224, 224, 224);
+    background-color: var(--gray);
+    border-bottom: 1px solid #e0e0e0;
     font-size: 1.25rem;
   }
 
   .info_title form span {
-    color: rgb(255, 139, 56);
+    color: var(--orange);
     margin: 6px;
   }
 

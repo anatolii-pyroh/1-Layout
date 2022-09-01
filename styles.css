@@ -15,7 +15,14 @@
   scroll-behavior: smooth;
 }
 
-body {
+:root {
+  --sky: #A7DBEF;
+  --orange: #FF8B38;
+  --orange-hover: #FF9B51;
+  --gray: #F5F5F5;
+}
+body
+ {
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -28,8 +35,7 @@ body {
 
 /* common styles */
 ::selection {
-  color: white;
-  background: rgb(167, 219, 239);
+  background: var(--sky);
 }
 
 button {
@@ -86,7 +92,7 @@ h3 {
   margin-bottom: 1.3rem;
   width: 64px !important;
   height: 2px;
-  background-color: rgb(255,139,56);
+  background-color: var(--orange);
   align-self: flex-start;
 }
 
@@ -99,7 +105,7 @@ h3 {
 }
 
 .fa-solid {
-  color: rgb(255, 139, 56);
+  color: var(--orange);
 }
 
 @media (min-width: 768px) {

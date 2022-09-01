@@ -30,7 +30,7 @@
   
   /* sublist fontawesome icons */
   .sublist_fontawesome {
-    border: 2px solid rgb(255, 139, 56);
+    border: 2px solid var(--orange);
     border-radius: 50%;
     padding: 11px;
     display: flex;

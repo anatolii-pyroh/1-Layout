@@ -4,7 +4,7 @@
   height: 500px;
   display: flex;
   justify-content: center;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: var(--gray);
 }
 
 .tabs button {
@@ -16,13 +16,13 @@
   max-width: 200px;
   height: 44px;
   color: white;
-  background-color: rgb(255, 139, 56);
+  background-color: var(--orange);
   font-size: 1rem;
   cursor: pointer;
 }
 
 .tabs button:hover {
-  background-color: rgb(255, 155, 81);
+  background-color: var(--orange-hover);
 }
 
 .tabs img {
@@ -58,7 +58,7 @@
 }
 
 .collapse:hover {
-  background-color: rgb(51, 51, 51);
+  background-color: #333333;
 }
   /* hide the checkboxes */
 .tabs input {
@@ -90,7 +90,7 @@ input:checked+.collapse+div {
 
 /* make selected label color orange */
 input:checked+.collapse {
-  background-color: rgb(255, 139, 56);
+  background-color: var(--orange);
 }
 
 @media (min-width: 440px) {

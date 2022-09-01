@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(245, 245, 245, 1);
+  background-color: var(--gray);
 }
 .pricing_title {
   margin: 0 9%;
@@ -70,7 +70,7 @@
   align-items: center;
   color: white;
   background-color: #333333;
-  border-bottom: 6px solid rgb(71, 71, 71);
+  border-bottom: 6px solid #474747;
 }
 
 .pricing_content h4 {
@@ -82,7 +82,7 @@
 .pricing_content footer {
   position: absolute;
   bottom: 15%;
-  color: rgb(153, 153, 153);
+  color: #999999;
   font-weight: bolder;
   font-style: italic;
   font-size: 14px;
@@ -106,7 +106,7 @@
   font-weight: 700;
   font-style: normal;
   font-size: 12px;
-  background-color: rgb(255, 139, 56);
+  background-color: var(--orange);
 }
 /* most popular badge with text */
 .text {
