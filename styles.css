@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
   -ms-overflow-x: hidden;
   justify-content: center;
-  font-family: "Raleway Regular", "Raleway";
+  font-family: 'Raleway', sans-serif;
 }
 
 /* common styles */
